@@ -27,7 +27,7 @@ class App < Sinatra::Base
     num2 = params[:number2].to_i
 
     case params[:operation]
-    when "add" 
+    when "add"
       total = (num1 + num2).to_s
     when "subtract"
       total = (num1 - num2).to_s
