@@ -34,7 +34,7 @@ class App < Sinatra::Base
     when "multiply"
       total = (num1 * num2).to_s
     when "divide"
-      total = (num1 % num2).to_s
+      total = (num1 / num2).to_s
     end
 
   end
